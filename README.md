@@ -1,5 +1,7 @@
 # Easy-Train HF (Alpha version)
 
+(Note: This is an early experimental version of this code. There may still be errors or lack of necessary documentation.)
+
 ## Using  Easy-Train HF
 
 ### Basic logic
