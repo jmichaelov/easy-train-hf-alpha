@@ -5,6 +5,9 @@
 ### Basic logic
 The code in `train_model.py` can be used to train any Hugging-Face-compatible model with a HF-compatible tokenizer on any HF-compatible training dataset and calculate loss on a different HF-compatible dataset. These can all be uploaded onto the HF model or dataset hub, and are all specified in the model `config` file, examples of which are provided in `model_configs/` (currently contains one example).
 
+Currently this code only works for autoregressive (i.e., unidirectional/forward/causal) language models, but this will be updated in the future.
+
+
 ### How to run
 
 To train a model, run:
