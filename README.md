@@ -33,11 +33,15 @@ python train_model.py -c model_configs/pythia160m.yaml -s 42
 If using, please cite the paper in which the original version of this script was first introduced:
 
 ```
-@inproceedings{michaelov_2025_neurips,
-  title={Language Model Behavioral Phases are Consistent Across Architecture, Training Data, and Scale},
-  author={Michaelov, James A. and Levy, Roger P. and Bergen, Benjamin K.},
-  booktitle={The Thirty-Ninth Annual Conference on Neural Information Processing Systems},
-  url={https://openreview.net/forum?id=HenpVfO3Wp}
+@inproceedings{michaelov_levy_bergen_2025_neurips,
+ author = {Michaelov, James and Levy, Roger and Bergen, Benjamin},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {D. Belgrave and C. Zhang and H. Lin and R. Pascanu and P. Koniusz and M. Ghassemi and N. Chen},
+ pages = {102407--102447},
+ publisher = {Curran Associates, Inc.},
+ title = {Language Model Behavioral Phases are Consistent Across Architecture, Training Data, and Scale},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2025/file/9432b29b0e25991aa28aff8c7bbe281c-Paper-Conference.pdf},
+ volume = {38},
+ year = {2025}
 }
-
 ```
